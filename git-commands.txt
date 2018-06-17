@@ -1,0 +1,25 @@
+- git init : initialize git on a folder
+- git add <filename>or . : to add file to staging
+- git commit -m "commit messsage" : commit file to repo
+- git status : status of tracking files
+- git branch : find the branch name
+- git log : get commit history
+- git checkout <commit id> : to see code from some previous commit and move HEAD to that point
+- git master : move HEAD to latest commit
+- git reset --hard <commit id> : revert code changes to previous version and set HEAD to that version. Can't go back to any commit after that.
+- git checkout -- . : move back to the last commit when you haven't committed your recent changes
+- git checkout -b <branch-name> :  create new branch from master
+- git checkout <branch-name> : to switch branch
+- git master : switch to master branch
+- git merge <branch-name> : Merge data from branch to master (before running this command switch to master branch)
+- git branch -D <branch-name> : delete a branch(come out of that branch first)
+- git remote add origin <git hub repo path> : connect a github repo to our local git repository
+- git remote -v : show details of remote repo
+- git push -u origin master : push data to remote origin repository from local master branch (-u means creating upstream)
+- git branch -r : shows like origin/master, means we have connection between local master branch and remote origin
+- git clone <github-path> : checkout/clone code from github to local repository
+- git fetch : download latest changes from remote branch to local repository, BUT won't merge it to local code
+- git merge origin/master: merge remote branch changes with local master branch
+- git pull : fetch and merge the data from remote branch to local branch (perform above two steps with one command)
+- git remote rm origin : delete connection between local and remote repository
+- git ls-tree -r master --name-only : to see files in local git repository
