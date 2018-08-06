@@ -23,3 +23,8 @@
 - git pull : fetch and merge the data from remote branch to local branch (perform above two steps with one command)
 - git remote rm origin : delete connection between local and remote repository
 - git ls-tree -r master --name-only : to see files in local git repository
+
+http://cfd-course-200snapshot.apps.apbg.apcf.io/
+
+user: accenturestudent
+pass: cloudfoundry!
